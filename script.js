@@ -113,13 +113,21 @@ const modal = document.getElementById('imageModal');
 const modalImg = document.getElementById('modalImg');
 const closeModal = document.querySelector('.close-modal');
 
-images.forEach(img => {
-  img.addEventListener('click', () => {
-    modal.style.display = 'block';
-    modalImg.src = img.src;
+if (modal && modalImg && closeModal) {
+  images.forEach(img => {
+    img.addEventListener('click', () => {
+      modal.style.display = 'block';
+      modalImg.src = img.src;
+    });
   });
-});
 
-closeModal.onclick = () => {
-  modal.style.display = 'none';
-};
+  closeModal.onclick = () => {
+    modal.style.display = 'none';
+  };
+
+  window.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal.style.display = 'none';
+    }
+  });
+}
