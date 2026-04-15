@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Achievements | Rohit Kumar Singh</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-<!-- Navbar -->
-<nav id="navbar">
-  <div class="nav-container">
-    <ul class="nav-links">
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="research.html">Research</a></li>
       <li><a href="publications.html">Publications</a></li>
@@ -24,162 +45,145 @@
       <li><a href="resources.html">Resources</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-
-    <div class="hamburger">
-      <i class="fas fa-bars"></i>
-    </div>
   </div>
-</nav>
 
-<!-- Mobile Menu -->
-<div class="mobile-menu">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="research.html">Research</a></li>
-    <li><a href="publications.html">Publications</a></li>
-    <li><a href="achievements.html">Achievements</a></li>
-    <li><a href="teaching.html">Teaching</a></li>
-    <li><a href="resources.html">Resources</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</div>
+  <div class="page-header-padding"></div>
 
-<div class="page-header-padding"></div>
+  <!-- Achievements Section -->
+  <section class="achievements fade-in">
+    <div class="container section-container">
 
-<!-- Achievements Section -->
-<section class="achievements">
-  <div class="container section-container">
+      <span class="section-label text-center-block">ACHIEVEMENTS</span>
+      <h2 class="section-title text-center">Academic Highlights</h2>
 
-    <span class="section-label text-center-block">ACHIEVEMENTS</span>
-    <h2 class="section-title text-center">Academic Highlights</h2>
+      <div class="timeline-wrapper">
+        <div class="timeline">
 
-    <div class="timeline-wrapper">
-      <div class="timeline">
-
-        <!-- Patent -->
-        <div class="timeline-item fade-in">
-          <div class="timeline-year">2024</div>
-          <div class="timeline-card premium-glass">
-            <div class="card-header">
-              <i class="fas fa-award"></i>
-              <h3>Patent & Copyright</h3>
+          <!-- Patent -->
+          <div class="timeline-item">
+            <div class="timeline-year">2024</div>
+            <div class="timeline-card premium-glass">
+              <div class="card-header">
+                <i class="fas fa-award"></i>
+                <h3>Patent & Copyright</h3>
+              </div>
+              <p>UK Design Patent – Mathematics Teaching Projection Device</p>
+              <p>Indian Copyright – AI-based Water Quality Analysis System</p>
+              <span class="badge success">Published</span>
+              <img src="assets/copy.jpg" class="achievement-img" />
+              <img src="assets/patent.jpg" class="achievement-img" />
             </div>
-            <p>UK Design Patent – Mathematics Teaching Projection Device</p>
-            <p>Indian Copyright – AI-based Water Quality Analysis System</p>
-            <span class="badge success">Published</span>
-            <img src="assets/copy.jpg" class="achievement-img" />
-            <img src="assets/patent.jpg" class="achievement-img" />
           </div>
-        </div>
 
-        <!-- Publications -->
-        <div class="timeline-item fade-in">
-          <div class="timeline-year">2024–25</div>
-          <div class="timeline-card premium-glass">
-            <div class="card-header">
-              <i class="fas fa-book"></i>
-              <h3>Publications & Books</h3>
-            </div>
-            <p>Multiple research papers in IEEE, conferences & journals</p>
-            <p>Book chapters in Cybersecurity & IoT</p>
-            <span class="badge success">Published</span>
-            <!-- <img src="assets/block.jpg" class="achievement-img" />s -->
-            <!-- <img src="assets/block.jpg" class="achievement-img" /> -->
-          </div>
-        </div>
+          <!-- Publications -->
+          <div class="timeline-item">
+            <div class="timeline-year">2024–25</div>
+            <div class="timeline-card premium-glass">
+              <div class="card-header">
+                <i class="fas fa-book"></i>
+                <h3>Publications & Books</h3>
+              </div>
+              <p>Multiple research papers in IEEE, conferences & journals</p>
+              <p>Book chapters in Cybersecurity & IoT</p>
+              <span class="badge success">Published</span>
 
-        <!-- Reviewer -->
-        <div class="timeline-item fade-in">
-          <div class="timeline-year">2025</div>
-          <div class="timeline-card premium-glass">
-            <div class="card-header">
-              <i class="fas fa-user-check"></i>
-              <h3>Reviewer</h3>
             </div>
-            <p>Reviewer for international conferences & journals</p>
-            <span class="badge success">Active</span>
             <img src="assets/block.jpg" class="achievement-img" />
           </div>
-        </div>
 
-        <!-- PhD -->
-        <div class="timeline-item fade-in">
-          <div class="timeline-year">2024–Present</div>
-          <div class="timeline-card premium-glass">
-            <div class="card-header">
-              <i class="fas fa-graduation-cap"></i>
-              <h3>PhD Research</h3>
+          <!-- Reviewer -->
+          <div class="timeline-item">
+            <div class="timeline-year">2025</div>
+            <div class="timeline-card premium-glass">
+              <div class="card-header">
+                <i class="fas fa-user-check"></i>
+                <h3>Reviewer</h3>
+              </div>
+              <p>Reviewer for international conferences & journals</p>
+              <span class="badge success">Active</span>
+
             </div>
-            <p>Deep Learning for Permafrost Monitoring using Remote Sensing</p>
-            <span class="badge ongoing">Ongoing</span>
-          </div>
-        </div>
 
-        <!-- Leadership -->
-        <div class="timeline-item fade-in">
-          <div class="timeline-year">2023–Present</div>
-          <div class="timeline-card premium-glass">
-            <div class="card-header">
-              <i class="fas fa-users"></i>
-              <h3>Leadership Roles</h3>
+          </div>
+
+          <!-- PhD -->
+          <div class="timeline-item">
+            <div class="timeline-year">2024–Present</div>
+            <div class="timeline-card premium-glass">
+              <div class="card-header">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>PhD Research</h3>
+              </div>
+              <p>Deep Learning for Permafrost Monitoring using Remote Sensing</p>
+              <span class="badge ongoing">Ongoing</span>
             </div>
-            <p>Convener – IPR Cell</p>
-            <p>Coordinator – Technical Activities</p>
-            <p>Member – Board of Studies</p>
           </div>
-        </div>
 
-        <!-- Award 1 -->
-        <div class="timeline-item fade-in">
-          <div class="timeline-year">2026</div>
-          <div class="timeline-card premium-glass">
-            <div class="card-header">
-              <i class="fas fa-award"></i>
-              <h3>Best Paper Award</h3>
+          <!-- Leadership -->
+          <div class="timeline-item">
+            <div class="timeline-year">2023–Present</div>
+            <div class="timeline-card premium-glass">
+              <div class="card-header">
+                <i class="fas fa-users"></i>
+                <h3>Leadership Roles</h3>
+              </div>
+              <p>Convener – IPR Cell</p>
+              <p>Coordinator – Technical Activities</p>
+              <p>Member – Board of Studies</p>
             </div>
-            <p>Received Best Paper Award at ICTEM 2026 Conference</p>
-            <img src="assets/award1.jpg" class="achievement-img" />
           </div>
-        </div>
 
-        <!-- Award 2 -->
-        <div class="timeline-item fade-in">
-          <div class="timeline-year">2025</div>
-          <div class="timeline-card premium-glass">
-            <div class="card-header">
-              <i class="fas fa-award"></i>
-              <h3>Best Paper Award</h3>
+          <!-- Award 1 -->
+          <div class="timeline-item">
+            <div class="timeline-year">2026</div>
+            <div class="timeline-card premium-glass">
+              <div class="card-header">
+                <i class="fas fa-award"></i>
+                <h3>Best Paper Award</h3>
+              </div>
+              <p>Received Best Paper Award at ICTEM 2026 Conference</p>
+              <img src="assets/award1.jpg" class="achievement-img" />
             </div>
-            <p>Received Best Paper Award at IIRA 2025 Conference</p>
-            <img src="assets/iira25.jpg" class="achievement-img" />
           </div>
-        </div>
 
+          <!-- Award 2 -->
+          <div class="timeline-item">
+            <div class="timeline-year">2025</div>
+            <div class="timeline-card premium-glass">
+              <div class="card-header">
+                <i class="fas fa-award"></i>
+                <h3>Best Paper Award</h3>
+              </div>
+              <p>Received Best Paper Award at IIRA 2025 Conference</p>
+              <img src="assets/iira25.jpg" class="achievement-img" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- IMAGE MODAL -->
+  <div id="imageModal" class="img-modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+
+  <!-- Footer -->
+  <footer class="minimal-footer">
+    <div class="container footer-flex">
+      <p>&copy; <span id="year"></span> Rohit Kumar Singh. All Rights Reserved.</p>
+      <div class="footer-social-mini">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-google"></i></a>
       </div>
     </div>
+  </footer>
 
-  </div>
-</section>
-
-<!-- IMAGE MODAL -->
-<div id="imageModal" class="img-modal">
-  <span class="close-modal">&times;</span>
-  <img class="modal-content" id="modalImg">
-</div>
-
-<!-- Footer -->
-<footer class="minimal-footer">
-  <div class="container footer-flex">
-    <p>&copy; <span id="year"></span> Rohit Kumar Singh. All Rights Reserved.</p>
-    <div class="footer-social-mini">
-      <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      <a href="#"><i class="fab fa-google"></i></a>
-    </div>
-  </div>
-</footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
+
 </html>
