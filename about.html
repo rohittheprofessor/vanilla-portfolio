@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Rohit Kumar Singh</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="page-header-padding fade-in"></div>
+
+  <!-- About Section -->
+  <section class="about fade-in">
+    <div class="container section-container">
+
+      <div class="about-grid">
+
+        <!-- LEFT -->
+        <div class="about-text">
+          <span class="section-label">ABOUT ME</span>
+          <h2 class="section-title">Dedication to Computational Excellence</h2>
+
+          <p class="lead-text">
+            I am an Assistant Professor in Computer Science with strong interests in Artificial Intelligence, Machine Learning, and Remote Sensing applications.
+          </p>
+
+          <p>
+            Currently pursuing my Ph.D., my research focuses on deep learning-based permafrost mapping using satellite data. I aim to bridge theoretical computation with real-world environmental challenges.
+          </p>
+
+          <p>
+            I actively mentor students, contribute to research publications, and engage in academic collaborations.
+          </p>
+
+          <h3 class="subsection-title">Research Interests</h3>
+
+          <div class="pill-group">
+            <span class="pill-badge">Artificial Intelligence</span>
+            <span class="pill-badge">Machine Learning</span>
+            <span class="pill-badge">Deep Learning</span>
+            <span class="pill-badge">Remote Sensing</span>
+            <span class="pill-badge">Geospatial Analysis</span>
+          </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="about-image-wrapper">
+          <img src="assets/photo.jpg" alt="Rohit Kumar Singh" class="about-image">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CV Section -->
+  <section class="cv-panel fade-in">
+    <div class="container section-container">
+      <div class="text-center">
+        <span class="section-label">CV</span>
+        <h2 class="section-title">Academic CV</h2>
+        <p class="lead-text">
+          Review my CV directly on this page, or download the latest version for a full look at my publications, teaching record, awards, and research activity.
+        </p>
+      </div>
+
+      <div class="cv-embed-wrapper">
+        <object data="assets/cv.pdf" type="application/pdf" class="cv-object">
+          <div class="cv-embed-fallback">
+            <p>Inline preview is unavailable in this browser.</p>
+            <a href="assets/cv.pdf" class="btn btn-primary" target="_blank" rel="noopener">Open CV</a>
+          </div>
+        </object>
+      </div>
+
+      <div class="button-group">
+        <a href="assets/cv.pdf" class="btn btn-primary" target="_blank" rel="noopener">Download CV</a>
+        <a href="contact.html" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="minimal-footer">
+    <div class="container footer-flex">
+      <p>&copy; <span id="year"></span>  Rohit Kumar Singh. All Rights Reserved.</p>
+
+      <div class="footer-social-mini">
+        <a href="https://www.linkedin.com/in/rohit-kumar-singh-1ba386183/" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://scholar.google.co.in/citations?user=rX7KQU0AAAAJ&hl=en" target="_blank">
+          <i class="fas fa-graduation-cap"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
