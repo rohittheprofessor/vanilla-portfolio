@@ -5,16 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About | Rohit Kumar Singh</title>
   <meta name="description" content="Rohit Kumar Singh – Assistant Professor (CSE), MIT Moradabad, and PhD researcher in deep learning and remote sensing for permafrost monitoring." />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#faf8f3" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230f5257'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='%23faf8f3' text-anchor='middle'%3ERS%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="extra.css" />
 </head>
 <body>
 
   <!-- Navigation -->
   <nav id="navbar">
     <div class="nav-container">
+      <a class="brand" href="/" aria-label="Home">
+        <span class="brand-name">Rohit Kumar Singh</span>
+        <span class="brand-sub">Asst. Professor · PhD Researcher</span>
+      </a>
       <ul class="nav-links">
         <li><a href='/'>Home</a></li>
         <li><a href='/about'>About</a></li>
@@ -25,7 +32,7 @@
         <li><a href='/achievements'>Achievements</a></li>
         <li><a href='/contact'>Contact</a></li>
       </ul>
-      <div class="hamburger"><i class="fas fa-bars"></i></div>
+      <div class="hamburger" role="button" tabindex="0" aria-label="Open menu"><i class="fas fa-bars"></i></div>
     </div>
   </nav>
 
@@ -192,7 +199,10 @@
   <!-- Footer -->
   <footer class="minimal-footer">
     <div class="container footer-flex">
-      <p>&copy; <span id="year"></span> Rohit Kumar Singh. All Rights Reserved.</p>
+      <div>
+        <div class="footer-brand">Rohit Kumar Singh</div>
+        <p>&copy; <span id="year"></span> · Dept. of CSE, MIT Moradabad</p>
+      </div>
       <div class="footer-social-mini">
         <a href="https://www.linkedin.com/in/rohit-kumar-singh-1ba386183/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
         <a href="https://scholar.google.co.in/citations?user=rX7KQU0AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>

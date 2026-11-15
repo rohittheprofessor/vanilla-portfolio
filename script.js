@@ -21,12 +21,16 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!icon) return;
     icon.classList.toggle('fa-bars', !open);
     icon.classList.toggle('fa-times', open);
-    icon.style.color = open ? 'var(--color-navy)' : '';
+    icon.style.color = open ? 'var(--ink)' : '';
   }
   if (hamburger && mobileMenu) {
-    hamburger.addEventListener('click', () => {
+    const toggle = () => {
       mobileMenu.classList.toggle('active');
       setIcon(mobileMenu.classList.contains('active'));
+    };
+    hamburger.addEventListener('click', toggle);
+    hamburger.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
     });
   }
 
