@@ -358,3 +358,20 @@ details.more[open] summary::after { content: '−'; }
 .code-card .card-link { padding-top: 1rem; border-top: 1px solid var(--rule); width: 100%; }
 .code-card .card-link .fa-arrow-right { font-size: .75rem; margin-left: auto; transition: transform .2s var(--ease); }
 .code-card .card-link:hover .fa-arrow-right { transform: translateX(3px); }
+
+/* ---------- Certificate gallery ---------- */
+.cert-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+.cert-card { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; transition: border-color .25s var(--ease), box-shadow .25s var(--ease); }
+.cert-card:hover { border-color: var(--rule-strong); box-shadow: 0 18px 40px -28px rgba(28, 26, 23, .35); }
+.cert-card .achievement-img { margin: 0; border: 0; border-bottom: 1px solid var(--rule); border-radius: 0; aspect-ratio: 1400 / 990; height: auto; object-fit: cover; background: #fff; }
+.cert-card figcaption { padding: 1.25rem 1.4rem 1.4rem; display: flex; flex-direction: column; flex: 1; }
+.cert-card h3 { font-size: 1.15rem; margin-bottom: .35rem; }
+.cert-meta { font-size: .85rem; color: var(--muted); margin-bottom: .9rem; }
+.cert-card .tech-tags { margin-bottom: 1rem; }
+.cert-card .card-link { margin-top: auto; }
+.cert-card .card-link i { font-size: .7rem; }
+.cert-placeholder { aspect-ratio: 1400 / 990; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .75rem; background: var(--accent-soft); color: var(--accent); border-bottom: 1px solid var(--rule); }
+.cert-placeholder i { font-size: 2.5rem; }
+.cert-placeholder span { font-family: var(--serif); font-size: 1.2rem; color: var(--accent-2); }
+@media (max-width: 1000px) { .cert-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .cert-grid { grid-template-columns: 1fr; } }
