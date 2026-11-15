@@ -3,137 +3,141 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Research | Dr. Rohit Singh</title>
-
+  <title>Research | Rohit Kumar Singh</title>
+  <meta name="description" content="Rohit Kumar Singh – Assistant Professor (CSE), MIT Moradabad, and PhD researcher in deep learning and remote sensing for permafrost monitoring." />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="extra.css" />
 </head>
-
 <body>
 
-<!-- Navigation -->
-<nav id="navbar">
-  <div class="nav-container">
-    <ul class="nav-links">
-      <li><a href="about.html">About</a></li>
-      <li><a href="research.html">Research</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="teaching.html">Teaching</a></li>
-      <li><a href="resources.html">Resources</a></li>
-      <li><a href="contact.html">Contact</a></li>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <ul class="nav-links">
+        <li><a href='/'>Home</a></li>
+        <li><a href='/about'>About</a></li>
+        <li><a href='/research'>Research</a></li>
+        <li><a href='/publications'>Publications</a></li>
+        <li><a href='/teaching'>Teaching</a></li>
+        <li><a href='/resources'>Resources</a></li>
+        <li><a href='/achievements'>Achievements</a></li>
+        <li><a href='/contact'>Contact</a></li>
+      </ul>
+      <div class="hamburger"><i class="fas fa-bars"></i></div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <ul>
+        <li><a href='/'>Home</a></li>
+        <li><a href='/about'>About</a></li>
+        <li><a href='/research'>Research</a></li>
+        <li><a href='/publications'>Publications</a></li>
+        <li><a href='/teaching'>Teaching</a></li>
+        <li><a href='/resources'>Resources</a></li>
+        <li><a href='/achievements'>Achievements</a></li>
+        <li><a href='/contact'>Contact</a></li>
     </ul>
-
-    <div class="hamburger">
-      <i class="fas fa-bars"></i>
-    </div>
   </div>
-</nav>
 
-<!-- Mobile Menu -->
-<div class="mobile-menu">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="research.html">Research</a></li>
-    <li><a href="publications.html">Publications</a></li>
-    <li><a href="teaching.html">Teaching</a></li>
-    <li><a href="resources.html">Resources</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="achievements.html">Achievements</a></li>
-  </ul>
-</div>
+  <div class="page-header-padding"></div>
 
-<div class="page-header-padding"></div>
-
-<!-- Research Section -->
-<section class="research fade-in">
-  <div class="container section-container">
-
-    <span class="section-label text-center-block">RESEARCH</span>
-    <h2 class="section-title text-center">Academic Research Work</h2>
-
-    <div class="research-grid mt-large">
-
-      <!-- Project 1 -->
-      <div class="card premium-card">
-        <div class="card-icon"><i class="fas fa-mountain"></i></div>
-
-        <h3 class="card-title">
-          Permafrost Mapping using Deep Learning
-        </h3>
-
-        <p class="card-desc">
-          Developing deep learning models to map permafrost distribution in the Western Himalaya using remote sensing datasets and geospatial analysis techniques.
-        </p>
-
-        <div class="card-footer">
-          <span class="status-badge active">
-            <i class="fas fa-circle"></i> Ongoing (PhD Work)
-          </span>
+  <section class="research fade-in">
+    <div class="container section-container">
+      <span class="section-label text-center-block">RESEARCH</span>
+      <h2 class="section-title text-center">Academic Research Work</h2>
+      <p class="section-intro">My PhD research uses deep learning on multi-sensor satellite data to map and monitor permafrost in the Himalaya. Alongside it, I supervise applied AI and IoT projects with my students.</p>
+      <div class="research-grid mt-large">
+        <div class="card premium-card">
+          <div class="card-icon"><i class="fas fa-mountain"></i></div>
+          <h3 class="card-title">Permafrost Mapping using Deep Learning</h3>
+          <p class="card-desc">Deep learning models that map permafrost in the Western Himalaya using remote sensing data and geospatial analysis. Part of my PhD at IFTM University.</p>
+          <div class="card-footer"><span class="status-badge active"><i class="fas fa-circle"></i> Ongoing (PhD Work)</span></div>
+        </div>
+        <div class="card premium-card">
+          <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+          <h3 class="card-title">Comparative ML for Permafrost Probability</h3>
+          <p class="card-desc">Compares machine learning approaches to permafrost probability mapping in the Jhelum Basin. Presented at IEEE ISED-2025, NIT Raipur.</p>
+          <div class="card-footer"><span class="status-badge completed"><i class="fas fa-check-circle"></i> Published · IEEE Xplore</span></div>
+        </div>
+        <div class="card premium-card">
+          <div class="card-icon"><i class="fas fa-satellite"></i></div>
+          <h3 class="card-title">PermaFusionNet: SAR + Optical Fusion</h3>
+          <p class="card-desc">A hybrid deep learning framework that fuses SAR and optical data to map permafrost degradation. Presented at IIRA 5.0 – 2026.</p>
+          <div class="card-footer"><span class="status-badge completed"><i class="fas fa-check-circle"></i> Published · IJERT</span></div>
+        </div>
+        <div class="card premium-card">
+          <div class="card-icon"><i class="fas fa-book-open"></i></div>
+          <h3 class="card-title">Deep Learning for Satellite Image Processing: A Review</h3>
+          <p class="card-desc">A critical review of deep learning methods for satellite image processing and permafrost probability mapping, with future directions. Presented at IEEE IC2PCT-2026.</p>
+          <div class="card-footer"><span class="status-badge completed"><i class="fas fa-check-circle"></i> Published · IEEE Xplore</span></div>
+        </div>
+        <div class="card premium-card">
+          <div class="card-icon"><i class="fas fa-brain"></i></div>
+          <h3 class="card-title">Machine Learning on Geospatial Data</h3>
+          <p class="card-desc">Supervised and deep learning techniques for analysing large geospatial datasets for prediction and classification.</p>
+          <div class="card-footer"><span class="status-badge active"><i class="fas fa-circle"></i> Ongoing</span></div>
+        </div>
+        <div class="card premium-card">
+          <div class="card-icon"><i class="fas fa-shield-halved"></i></div>
+          <h3 class="card-title">Cyber Security &amp; IoT</h3>
+          <p class="card-desc">Book chapters on social engineering, social media security, Edge AI for IoT, and IoT for sustainable agriculture.</p>
+          <div class="card-footer"><span class="status-badge completed"><i class="fas fa-check-circle"></i> Published</span></div>
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- Project 2 -->
-      <div class="card premium-card">
-        <div class="card-icon"><i class="fas fa-satellite"></i></div>
-
-        <h3 class="card-title">
-          Remote Sensing for Environmental Monitoring
-        </h3>
-
-        <p class="card-desc">
-          Applying satellite imagery and machine learning algorithms to monitor environmental changes and detect geospatial patterns in mountainous regions.
-        </p>
-
-        <div class="card-footer">
-          <span class="status-badge active">
-            <i class="fas fa-circle"></i> Ongoing
-          </span>
+  <section class="bg-light fade-in">
+    <div class="container section-container">
+      <span class="section-label text-center-block">PROJECTS</span>
+      <h2 class="section-title text-center">Academic &amp; Digital Projects</h2>
+      <div class="info-grid">
+        <div class="info-card">
+          <h3><i class="fas fa-user-graduate"></i> As Project Supervisor – MIT Moradabad</h3>
+          <ul class="tick-list">
+            <li><strong>Dose Decoder</strong> – an AI healthcare app that reads prescriptions and medication dosages.</li>
+            <li><strong>AI-powered Speedcubing</strong> – an AI system that analyses and solves Rubik’s Cube patterns in real time.</li>
+            <li><strong>Gesture Controlled Computer System</strong> – a computer interface operated by hand gestures using sensors and computer vision.</li>
+          </ul>
+          <h3 style="margin-top:2rem"><i class="fas fa-chalkboard-user"></i> M.Tech. / B.Tech. Supervision</h3>
+          <ul class="tick-list">
+            <li>“Image Steganography with its related techniques” – Divyanshu Tripathi, B.Tech. (I) 2011–16, ITM University</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h3><i class="fas fa-laptop-code"></i> As Developer</h3>
+          <ul class="tick-list">
+            <li><strong>Location Added Routing in MANETs</strong> (B.Tech. final year) – a location-based routing protocol that improves path selection and reduces network latency.</li>
+            <li><strong>Data Encryption in C</strong> (B.Tech. 3rd year) – custom encryption algorithms for securing text messages.</li>
+          </ul>
+          <h3 style="margin-top:2rem"><i class="fas fa-globe"></i> Websites</h3>
+          <ul class="tick-list">
+            <li><a href="https://mygis.netlify.app/" target="_blank" rel="noopener"><strong>GIS Website</strong></a> – an interactive website for geospatial visualisation and mapping.</li>
+            <li><strong>Academic Portfolio</strong> – this website, built and deployed with Netlify and GitHub.</li>
+          </ul>
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- Project 3 -->
-      <div class="card premium-card">
-        <div class="card-icon"><i class="fas fa-brain"></i></div>
 
-        <h3 class="card-title">
-          Machine Learning Applications in Geospatial Data
-        </h3>
-
-        <p class="card-desc">
-          Exploring supervised and deep learning techniques to analyze large-scale geospatial datasets for predictive modeling and classification tasks.
-        </p>
-
-        <div class="card-footer">
-          <span class="status-badge completed">
-            <i class="fas fa-check-circle"></i> Completed / Ongoing
-          </span>
-        </div>
+  <!-- Footer -->
+  <footer class="minimal-footer">
+    <div class="container footer-flex">
+      <p>&copy; <span id="year"></span> Rohit Kumar Singh. All Rights Reserved.</p>
+      <div class="footer-social-mini">
+        <a href="https://www.linkedin.com/in/rohit-kumar-singh-1ba386183/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://scholar.google.co.in/citations?user=rX7KQU0AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://orcid.org/0009-0001-3104-0350" target="_blank" rel="noopener" aria-label="ORCID"><i class="fab fa-orcid"></i></a>
+        <a href="https://www.researchgate.net/profile/Rohit-Singh-220/research" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="fab fa-researchgate"></i></a>
       </div>
-
     </div>
+  </footer>
 
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="minimal-footer">
-  <div class="container footer-flex">
-    <p>&copy; <span id="year"></span>  Rohit Kumar Singh. All Rights Reserved.</p>
-
-    <div class="footer-social-mini">
-      <a href="https://www.linkedin.com/in/rohit-kumar-singh-1ba386183/" target="_blank">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-      <a href="https://scholar.google.co.in/citations?user=rX7KQU0AAAAJ&hl=en" target="_blank">
-        <i class="fas fa-graduation-cap"></i>
-      </a>
-    </div>
-  </div>
-</footer>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>

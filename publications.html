@@ -3,129 +3,271 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Publications | Dr. Rohit Singh</title>
-
+  <title>Publications | Rohit Kumar Singh</title>
+  <meta name="description" content="Rohit Kumar Singh – Assistant Professor (CSE), MIT Moradabad, and PhD researcher in deep learning and remote sensing for permafrost monitoring." />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="extra.css" />
 </head>
-
 <body>
 
   <!-- Navigation -->
   <nav id="navbar">
     <div class="nav-container">
       <ul class="nav-links">
-        <li><a href="about.html">About</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="resources.html">Resources</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href='/'>Home</a></li>
+        <li><a href='/about'>About</a></li>
+        <li><a href='/research'>Research</a></li>
+        <li><a href='/publications'>Publications</a></li>
+        <li><a href='/teaching'>Teaching</a></li>
+        <li><a href='/resources'>Resources</a></li>
+        <li><a href='/achievements'>Achievements</a></li>
+        <li><a href='/contact'>Contact</a></li>
       </ul>
-
-      <div class="hamburger">
-        <i class="fas fa-bars"></i>
-      </div>
+      <div class="hamburger"><i class="fas fa-bars"></i></div>
     </div>
   </nav>
 
   <!-- Mobile Menu -->
   <div class="mobile-menu">
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="research.html">Research</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="teaching.html">Teaching</a></li>
-      <li><a href="resources.html">Resources</a></li>
-      <li><a href="contact.html">Contact</a></li>
+        <li><a href='/'>Home</a></li>
+        <li><a href='/about'>About</a></li>
+        <li><a href='/research'>Research</a></li>
+        <li><a href='/publications'>Publications</a></li>
+        <li><a href='/teaching'>Teaching</a></li>
+        <li><a href='/resources'>Resources</a></li>
+        <li><a href='/achievements'>Achievements</a></li>
+        <li><a href='/contact'>Contact</a></li>
     </ul>
   </div>
 
   <div class="page-header-padding"></div>
 
-  <!-- Publications Section -->
   <section class="publications fade-in">
     <div class="container section-container">
-
       <span class="section-label">PUBLICATIONS</span>
-      <h2 class="section-title">Selected Publications</h2>
+      <h2 class="section-title">Publications</h2>
+      <p>19 publications: conference papers, journal articles, book chapters and a book, including 5 Scopus-indexed works.</p>
 
-      <div class="academic-list mt-large">
+      <div class="pub-filter">
+        <button class="on" data-filter="all">All</button>
+        <button data-filter="conf">Conference Papers</button>
+        <button data-filter="journal">Journal Articles</button>
+        <button data-filter="chapter">Book Chapters</button>
+        <button data-filter="book">Books</button>
+      </div>
 
-        <!-- PAPER 1 -->
-        <div class="academic-row">
-          <div class="academic-year">2025</div>
+      <h3 class="pub-group-title" data-type="conf"><i class="fas fa-users-rectangle"></i> Conference Papers <span class="count">11</span></h3>
+      <div class="academic-list">
+        <div class="academic-row" data-type="conf">
+          <div class="academic-year">2026</div>
           <div class="academic-content">
-
-            <h3 class="paper-title">
-              Comparative Machine Learning Approaches to Permafrost Probability Mapping in the Western Himalaya’s Jhelum Basin
-            </h3>
-
-            <p class="paper-authors">
-              <strong>Rohit Kumar Singh</strong>, Dr. Suneel Kumar, Dr. Rakesh Sahu
-            </p>
-
-            <p class="paper-venue">
-              IEEE Conference Paper
-            </p>
-
-            <a href="https://ieeexplore.ieee.org/document/11405315" 
-               target="_blank" 
-               class="paper-link">
-              View Paper <i class="fas fa-arrow-right"></i>
-            </a>
-
+            <h3 class="paper-title">Deep Learning Approaches for Satellite Image Processing and Permafrost Probability Mapping: A Critical Review and Future Directions<span class="pub-tag ieee">IEEE</span><span class="pub-tag scopus">Scopus</span></h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Suneel Kumar, Rakesh Sahu</p>
+            <p class="paper-venue">2026 IEEE 6th International Conference on Computing, Power, and Communication Technologies (IC2PCT-2026), Galgotias University, Greater Noida, 15–17 May 2026. Published in IEEE Xplore.</p>
+            <a href="https://doi.org/10.1109/IC2PCT68894.2026.11584416" target="_blank" rel="noopener" class="paper-link">View Paper <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
-
-        <!-- YOU CAN ADD MORE PAPERS LIKE THIS -->
-
+        <div class="academic-row" data-type="conf">
+          <div class="academic-year">2026</div>
+          <div class="academic-content">
+            <h3 class="paper-title">PermaFusionNet: A Hybrid Deep Learning Framework for Multi-Modal Permafrost Degradation Mapping using SAR and Optical Remote Sensing Data</h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Suneel Kumar, Rakesh Sahu</p>
+            <p class="paper-venue">5th International Conference on Innovative Ideas in Research &amp; Applications (IIRA 5.0 – 2026). Published in IJERT, Vol. 14, Issue 05 (Paper ID: IJERTCONV14IS050076), ISSN 2278-0181.</p>
+            
+          </div>
+        </div>
+        <div class="academic-row" data-type="conf">
+          <div class="academic-year">2026</div>
+          <div class="academic-content">
+            <h3 class="paper-title">AI-Powered Speedcubing: Machine Learning Models for Optimized Solution</h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Vineet Kumar, Mohd Noman, Adeel Ahmad Khan, Vikas Kashyap</p>
+            <p class="paper-venue">5th International Conference on Innovative Ideas in Research &amp; Applications (IIRA 5.0 – 2026). Published in IJERT, Vol. 14, Issue 05 (Paper ID: IJERTCONV14IS050018), ISSN 2278-0181.</p>
+            
+          </div>
+        </div>
+        <div class="academic-row" data-type="conf">
+          <div class="academic-year">2026</div>
+          <div class="academic-content">
+            <h3 class="paper-title">E-Commerce Customer Churn Analysis and Prediction</h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Kapil Dev Singh, Harshit Chahal, Honey Saini, Harshit Sondhi</p>
+            <p class="paper-venue">International Conference on Trends in Engineering &amp; Management (ICTEM 2.0 – 2026), MIT Moradabad, 23–24 January 2026. Published in IJERT, Vol. 14, Issue 04 (Paper ID: IJERTCONV14IS040020), ISSN 2278-0181.</p>
+            
+          </div>
+        </div>
+        <div class="academic-row" data-type="conf">
+          <div class="academic-year">2026</div>
+          <div class="academic-content">
+            <h3 class="paper-title">NatureNet</h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Disha Rastogi, Kali Agarwal, Devansh Goyal, Manish Kumar</p>
+            <p class="paper-venue">Innovative Computational Techniques in Engineering &amp; Management (ICTEM 2.0 – 2026), MIT Moradabad, 13–14 March 2026. Published in IJERT, Vol. 14, Issue 04 (Paper ID: IJERTCONV14IS040011), ISSN 2278-0181.</p>
+            
+          </div>
+        </div>
+        <div class="academic-row" data-type="conf">
+          <div class="academic-year">2025</div>
+          <div class="academic-content">
+            <h3 class="paper-title">Comparative Machine Learning Approaches to Permafrost Probability Mapping in the Western Himalaya’s Jhelum Basin<span class="pub-tag ieee">IEEE</span><span class="pub-tag scopus">Scopus</span></h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Dr. Sunil Kumar, Dr. Rakesh Sahu</p>
+            <p class="paper-venue">13th IEEE International Conference on Intelligent Systems and Embedded Design (ISED-2025), NIT Raipur, 17–19 December 2025. Published in IEEE Xplore (Document ID 11405315).</p>
+            <a href="https://doi.org/10.1109/ISED67359.2025.11405315" target="_blank" rel="noopener" class="paper-link">View Paper <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="academic-row" data-type="conf">
+          <div class="academic-year">2025</div>
+          <div class="academic-content">
+            <h3 class="paper-title">Dose Decoder</h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Anamta Khaleel, Akash Mishra, Ema Batool, Divyanshi Rajput</p>
+            <p class="paper-venue">1st International Conference on Innovative Computational Techniques in Engineering &amp; Management (ICTEM-2024), with IEEE UP Section, MIT Moradabad, 13–14 Dec 2024. International Journal of Research Publication and Reviews, Vol. 6, Special Issue 5, pp. 398–401, May 2025.</p>
+            <a href="https://doi.org/10.55248/gengpi.6.sp525.1956" target="_blank" rel="noopener" class="paper-link">View Paper <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="academic-row" data-type="conf">
+          <div class="academic-year">2025</div>
+          <div class="academic-content">
+            <h3 class="paper-title">Artificial Intelligence of IoT in Health Care System</h3>
+            <p class="paper-authors">Anu Sharma, Varun Agarwal, <strong>Rohit Kumar Singh</strong>, Abhinav Gupta, Bindu Rani</p>
+            <p class="paper-venue">ICTEM-2024, with IEEE UP Section, MIT Moradabad, 13–14 Dec 2024. International Journal of Research Publication and Reviews, Vol. 6, Special Issue 5, pp. 16–22, May 2025.</p>
+            <a href="https://doi.org/10.55248/gengpi.6.sp525.1902" target="_blank" rel="noopener" class="paper-link">View Paper <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="academic-row" data-type="conf">
+          <div class="academic-year">2025</div>
+          <div class="academic-content">
+            <h3 class="paper-title">Enhancement in Drone Technology with Payload, Sensors, and Frequency Spectrum Issues and Applications<span class="pub-tag scopus">Scopus</span></h3>
+            <p class="paper-authors">Mohd Salman, <strong>Rohit Singh</strong>, Varun Agrawal, Gaurav Trivedi</p>
+            <p class="paper-venue">Fourth International Conference on Innovation in IoT, Robotics &amp; Automation, MIT Moradabad, March 2024. AIP Conference Proceedings, Vol. 3224, 020020 (2025).</p>
+            <a href="https://doi.org/10.1063/5.0245908" target="_blank" rel="noopener" class="paper-link">View Paper <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="academic-row" data-type="conf">
+          <div class="academic-year">2024</div>
+          <div class="academic-content">
+            <h3 class="paper-title">An Exploration of Deep Learning for Medical Image Analysis</h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Vinay Kumar Pant, Mohd. Salman, Yukti Varshney</p>
+            <p class="paper-venue">Fourth International Conference on Innovation in IoT, Robotics &amp; Automation, MIT Moradabad, March 2024. International Journal of Engineering Sciences &amp; Emerging Technologies, Vol. 11, Issue 4, pp. 941–946, Dec 2024.</p>
+            
+          </div>
+        </div>
+        <div class="academic-row" data-type="conf">
+          <div class="academic-year">2024</div>
+          <div class="academic-content">
+            <h3 class="paper-title">Gesture Controlled Computer System</h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Himanshu Maurya, Divyanshu Gupta, Gaurvi Bhardwaj, Divyanshu Yadav</p>
+            <p class="paper-venue">Fourth International Conference on Innovation in IoT, Robotics &amp; Automation, MIT Moradabad, March 2024. International Journal of Engineering Sciences &amp; Emerging Technologies, Vol. 11, Issue 4, pp. 791–796, Dec 2024.</p>
+            
+          </div>
+        </div>
+      </div>
+      <h3 class="pub-group-title" data-type="journal"><i class="fas fa-newspaper"></i> Journal Articles <span class="count">3</span></h3>
+      <div class="academic-list">
+        <div class="academic-row" data-type="journal">
+          <div class="academic-year">2024</div>
+          <div class="academic-content">
+            <h3 class="paper-title">An Examination of the Existing Literature Concerning Fraudulent Online Reviews: Obstacles and Potential Remedies</h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Shivendra Pratap Singh, Abhinav Gupta, Prabal Bhatnagar</p>
+            <p class="paper-venue">International Journal of Innovative Science and Research Technology, Vol. 9, Issue 9, September 2024. ISSN 2456-2165.</p>
+            <a href="https://doi.org/10.38124/ijisrt/IJISRT24SEP1396" target="_blank" rel="noopener" class="paper-link">View Paper <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="academic-row" data-type="journal">
+          <div class="academic-year">2016</div>
+          <div class="academic-content">
+            <h3 class="paper-title">A Review on Digital Image Steganography with its Technique and Model</h3>
+            <p class="paper-authors">Yash Kumar Singh, Divyanshu Tripathi, <strong>Rohit Singh</strong></p>
+            <p class="paper-venue">International Journal for Science and Advance Research in Technology, Vol. 2, Issue 4, April 2016. ISSN 2395-1052.</p>
+            
+          </div>
+        </div>
+        <div class="academic-row" data-type="journal">
+          <div class="academic-year">2016</div>
+          <div class="academic-content">
+            <h3 class="paper-title">A Survey on Image Steganography with its Related Techniques and its Types</h3>
+            <p class="paper-authors">Divyanshu Tripathi, Yash Kumar Singh, <strong>Rohit Singh</strong></p>
+            <p class="paper-venue">International Journal for Science and Advance Research in Technology, Vol. 2, Issue 4, April 2016. ISSN 2395-1052.</p>
+            
+          </div>
+        </div>
+      </div>
+      <h3 class="pub-group-title" data-type="chapter"><i class="fas fa-book-open"></i> Book Chapters <span class="count">4</span></h3>
+      <div class="academic-list">
+        <div class="academic-row" data-type="chapter">
+          <div class="academic-year">2025</div>
+          <div class="academic-content">
+            <h3 class="paper-title">Edge AI for IoT: Enabling Real-Time Intelligence at the Device Level</h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Vibhor Kumar Vishnoi</p>
+            <p class="paper-venue">In <em>IoT and Cybersecurity: Innovations and Applications</em>, Sahitya Sansthan, Ghaziabad, September 2025. ISBN 978-93-89882-99-5.</p>
+            
+          </div>
+        </div>
+        <div class="academic-row" data-type="chapter">
+          <div class="academic-year">2025</div>
+          <div class="academic-content">
+            <h3 class="paper-title">Role of IoT in Sustainable Agriculture</h3>
+            <p class="paper-authors">Vibhor Kumar Vishnoi, <strong>Rohit Kumar Singh</strong>, Krishan Kumar, Rajesh Kumar</p>
+            <p class="paper-venue">In <em>IoT and Cybersecurity: Innovations and Applications</em>, Sahitya Sansthan, Ghaziabad, September 2025. ISBN 978-93-89882-99-5.</p>
+            
+          </div>
+        </div>
+        <div class="academic-row" data-type="chapter">
+          <div class="academic-year">2025</div>
+          <div class="academic-content">
+            <h3 class="paper-title">Cyber Security Concerns in Social Media and Online Interactions<span class="pub-tag scopus">Scopus</span></h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Vinay Pant</p>
+            <p class="paper-venue">In <em>Human Impact on Security and Privacy: Network and Human Security, Social Media, and Devices</em>, IGI Global.</p>
+            <a href="https://doi.org/10.4018/979-8-3693-9235-5.ch014" target="_blank" rel="noopener" class="paper-link">View Paper <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="academic-row" data-type="chapter">
+          <div class="academic-year">2024</div>
+          <div class="academic-content">
+            <h3 class="paper-title">Social Engineering in the Digital Age – A Critical Examination of Attack Techniques, Consequences, and Preventative Measures<span class="pub-tag scopus">Scopus</span></h3>
+            <p class="paper-authors">Vinay Pant, Janmejay Pant, <strong>Rohit Singh</strong></p>
+            <p class="paper-venue">In <em>Effective Strategies for Combatting Social Engineering in Cybersecurity</em>, IGI Global, September 2024.</p>
+            <a href="https://doi.org/10.4018/979-8-3693-6665-3.ch003" target="_blank" rel="noopener" class="paper-link">View Paper <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <h3 class="pub-group-title" data-type="book"><i class="fas fa-book"></i> Books <span class="count">1</span></h3>
+      <div class="academic-list">
+        <div class="academic-row" data-type="book">
+          <div class="academic-year">—</div>
+          <div class="academic-content">
+            <h3 class="paper-title">Blockchain Technology: Concept and Application</h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong></p>
+            <p class="paper-venue">Scientific International Publishing House. ISBN 978-93-6132-622-6.</p>
+            
+          </div>
+        </div>
       </div>
 
-      <!-- Footer -->
       <div class="publications-footer mt-large text-center">
-
-        <p style="margin-bottom: 15px;">
-          For more publications, visit:
-        </p>
-
-        <a href="https://scholar.google.co.in/citations?user=rX7KQU0AAAAJ&hl=en" 
-           target="_blank" 
-           class="btn btn-outline">
-          <i class="fas fa-graduation-cap"></i> Google Scholar
-        </a>
-
-        <a href="https://www.researchgate.net/profile/Rohit-Singh-220/research" 
-           target="_blank" 
-           class="btn btn-outline">
-          <i class="fas fa-flask"></i> ResearchGate
-        </a>
-
+        <p style="margin-bottom: 15px;">For citations and full-text links, visit:</p>
+        <div class="button-group">
+          <a href="https://scholar.google.co.in/citations?user=rX7KQU0AAAAJ&hl=en" target="_blank" rel="noopener" class="btn btn-outline"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+          <a href="https://orcid.org/0009-0001-3104-0350" target="_blank" rel="noopener" class="btn btn-outline"><i class="fab fa-orcid"></i> ORCID</a>
+          <a href="https://www.researchgate.net/profile/Rohit-Singh-220/research" target="_blank" rel="noopener" class="btn btn-outline"><i class="fab fa-researchgate"></i> ResearchGate</a>
+        </div>
       </div>
-
     </div>
   </section>
+
 
   <!-- Footer -->
   <footer class="minimal-footer">
     <div class="container footer-flex">
       <p>&copy; <span id="year"></span> Rohit Kumar Singh. All Rights Reserved.</p>
-
       <div class="footer-social-mini">
-        <a href="https://www.linkedin.com/in/rohit-kumar-singh-1ba386183/" target="_blank">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://scholar.google.co.in/citations?user=rX7KQU0AAAAJ&hl=en" target="_blank">
-          <i class="fas fa-graduation-cap"></i>
-        </a>
+        <a href="https://www.linkedin.com/in/rohit-kumar-singh-1ba386183/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://scholar.google.co.in/citations?user=rX7KQU0AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://orcid.org/0009-0001-3104-0350" target="_blank" rel="noopener" aria-label="ORCID"><i class="fab fa-orcid"></i></a>
+        <a href="https://www.researchgate.net/profile/Rohit-Singh-220/research" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="fab fa-researchgate"></i></a>
       </div>
     </div>
   </footer>
 
   <script src="script.js"></script>
-
 </body>
 </html>

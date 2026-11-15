@@ -4,50 +4,42 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rohit Kumar Singh | Academic Portfolio</title>
-
-  <!-- Fonts -->
+  <meta name="description" content="Rohit Kumar Singh – Assistant Professor (CSE), MIT Moradabad, and PhD researcher in deep learning and remote sensing for permafrost monitoring." />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-  <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="extra.css" />
 </head>
-
 <body class="home">
 
   <!-- Navigation -->
   <nav id="navbar">
     <div class="nav-container">
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="resources.html">Resources</a></li>
-        <li><a href="achievements.html">Achievements</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href='/'>Home</a></li>
+        <li><a href='/about'>About</a></li>
+        <li><a href='/research'>Research</a></li>
+        <li><a href='/publications'>Publications</a></li>
+        <li><a href='/teaching'>Teaching</a></li>
+        <li><a href='/resources'>Resources</a></li>
+        <li><a href='/achievements'>Achievements</a></li>
+        <li><a href='/contact'>Contact</a></li>
       </ul>
-
-      <div class="hamburger">
-        <i class="fas fa-bars"></i>
-      </div>
+      <div class="hamburger"><i class="fas fa-bars"></i></div>
     </div>
   </nav>
 
   <!-- Mobile Menu -->
   <div class="mobile-menu">
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="research.html">Research</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="teaching.html">Teaching</a></li>
-      <li><a href="resources.html">Resources</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="achievements.html">Achievements</a></li>
+        <li><a href='/'>Home</a></li>
+        <li><a href='/about'>About</a></li>
+        <li><a href='/research'>Research</a></li>
+        <li><a href='/publications'>Publications</a></li>
+        <li><a href='/teaching'>Teaching</a></li>
+        <li><a href='/resources'>Resources</a></li>
+        <li><a href='/achievements'>Achievements</a></li>
+        <li><a href='/contact'>Contact</a></li>
     </ul>
   </div>
 
@@ -55,111 +47,127 @@
   <header class="hero fade-in">
     <div class="hero-bg"></div>
     <div class="hero-overlay"></div>
-
     <div class="hero-content">
       <h1 class="hero-title">Rohit Kumar Singh</h1>
-      <h2 class="hero-subtitle">Assistant Professor | PhD Researcher</h2>
-
+      <h2 class="hero-subtitle">Assistant Professor (CSE), MIT Moradabad | PhD Researcher, IFTM University</h2>
       <p class="hero-tagline">
-        Bridging Artificial Intelligence with computational theory to solve real-world problems.
+        Deep learning and remote sensing for permafrost monitoring in the Himalaya, and for real-world geospatial problems.
       </p>
-
       <div class="hero-cta">
-        <a href="research.html" class="btn btn-primary">View Research</a>
-        <a href="contact.html" class="btn btn-outline-light">Contact Me</a>
+        <a class='btn btn-primary' href='/research'>View Research</a>
+        <a class='btn btn-outline-light' href='/contact'>Contact Me</a>
       </div>
     </div>
   </header>
 
+  <!-- Stats -->
+  <section class="stats-strip fade-in">
+    <div class="container stats-grid">
+      <div><div class="stat-num">13+</div><div class="stat-label">Years in Teaching</div></div>
+      <div><div class="stat-num">19</div><div class="stat-label">Publications &amp; Books</div></div>
+      <div><div class="stat-num">35</div><div class="stat-label">FDPs &amp; Workshops</div></div>
+      <div><div class="stat-num">2</div><div class="stat-label">Patent &amp; Copyright</div></div>
+    </div>
+  </section>
+
   <!-- About Preview -->
   <section class="about fade-in">
     <div class="container section-container text-center">
-
       <span class="section-label">ABOUT</span>
       <h2 class="section-title">Academic Profile</h2>
-
-      <p class="lead-text" style="max-width: 800px; margin: auto;">
-        Assistant Professor in Computer Science with research focus on Deep Learning,
-        Remote Sensing, and Permafrost Mapping using satellite data.
+      <p class="lead-text" style="max-width: 820px; margin: auto;">
+        Computer Science faculty member with experience in teaching, research, AI applications, GIS systems and
+        web-based academic tools. My PhD work at IFTM University uses deep learning on satellite data to map and monitor permafrost.
       </p>
-
-      <a href="about.html" class="btn btn-primary mt-3">Read Full Biography</a>
-
+      <div><a class='btn btn-primary mt-3' href='/about' style="margin-top:2rem">Read Full Biography</a></div>
     </div>
   </section>
 
   <!-- Research Preview -->
   <section class="research bg-light fade-in">
     <div class="container section-container">
-
       <span class="section-label text-center-block">RESEARCH</span>
       <h2 class="section-title text-center">Featured Research</h2>
-
       <div class="research-grid mt-large">
-
+        <div class="card premium-card">
+          <div class="card-icon"><i class="fas fa-mountain"></i></div>
+          <h3 class="card-title">Permafrost Probability Mapping</h3>
+          <p class="card-desc">Machine learning and deep learning models that map permafrost in the Western Himalaya’s Jhelum Basin from satellite data.</p>
+          <span class="status-badge active">Ongoing (PhD)</span>
+        </div>
         <div class="card premium-card">
           <div class="card-icon"><i class="fas fa-satellite"></i></div>
-          <h3 class="card-title">Permafrost Mapping</h3>
-          <p class="card-desc">
-            Deep learning-based mapping using satellite imagery and remote sensing.
-          </p>
+          <h3 class="card-title">Multi-Modal SAR + Optical Fusion</h3>
+          <p class="card-desc">PermaFusionNet: a hybrid deep learning framework that combines SAR and optical imagery to map permafrost degradation.</p>
           <span class="status-badge active">Ongoing</span>
         </div>
-
         <div class="card premium-card">
           <div class="card-icon"><i class="fas fa-brain"></i></div>
-          <h3 class="card-title">AI in Geospatial Systems</h3>
-          <p class="card-desc">
-            Applying machine learning techniques to analyze environmental data.
-          </p>
-          <span class="status-badge completed">Completed</span>
+          <h3 class="card-title">Applied AI &amp; IoT</h3>
+          <p class="card-desc">Student-led projects in healthcare AI, gesture interfaces, speedcubing solvers, churn prediction and smart IoT systems.</p>
+          <span class="status-badge completed">Published</span>
         </div>
-
       </div>
-
-      <div class="text-center mt-3">
-        <a href="research.html" class="btn btn-outline">Explore All Research</a>
+      <div class="text-center mt-3" style="margin-top:3rem">
+        <a class='btn btn-outline' href='/research'>Explore All Research</a>
       </div>
-
     </div>
   </section>
 
   <!-- Publications Preview -->
   <section class="publications-preview fade-in">
-    <div class="container section-container text-center">
-
-      <span class="section-label">PUBLICATIONS</span>
-      <h2 class="section-title">Selected Work</h2>
-
-      <p style="max-width: 800px; margin: auto;">
-        <strong>2025:</strong> Comparative Machine Learning Approaches to Permafrost
-        Probability Mapping in the Western Himalaya’s Jhelum Basin.
-      </p>
-
-      <a href="publications.html" class="btn btn-primary mt-3">
-        View All Publications
-      </a>
-
+    <div class="container section-container">
+      <span class="section-label text-center-block">PUBLICATIONS</span>
+      <h2 class="section-title text-center">Selected Work</h2>
+      <div class="academic-list mt-large">
+        <div class="academic-row" data-type="conf">
+          <div class="academic-year">2026</div>
+          <div class="academic-content">
+            <h3 class="paper-title">Deep Learning Approaches for Satellite Image Processing and Permafrost Probability Mapping: A Critical Review and Future Directions<span class="pub-tag ieee">IEEE</span><span class="pub-tag scopus">Scopus</span></h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Suneel Kumar, Rakesh Sahu</p>
+            <p class="paper-venue">2026 IEEE 6th International Conference on Computing, Power, and Communication Technologies (IC2PCT-2026), Galgotias University, Greater Noida, 15–17 May 2026. Published in IEEE Xplore.</p>
+            <a href="https://doi.org/10.1109/IC2PCT68894.2026.11584416" target="_blank" rel="noopener" class="paper-link">View Paper <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="academic-row" data-type="conf">
+          <div class="academic-year">2025</div>
+          <div class="academic-content">
+            <h3 class="paper-title">Comparative Machine Learning Approaches to Permafrost Probability Mapping in the Western Himalaya’s Jhelum Basin<span class="pub-tag ieee">IEEE</span><span class="pub-tag scopus">Scopus</span></h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Dr. Sunil Kumar, Dr. Rakesh Sahu</p>
+            <p class="paper-venue">13th IEEE International Conference on Intelligent Systems and Embedded Design (ISED-2025), NIT Raipur, 17–19 December 2025. Published in IEEE Xplore (Document ID 11405315).</p>
+            <a href="https://doi.org/10.1109/ISED67359.2025.11405315" target="_blank" rel="noopener" class="paper-link">View Paper <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="academic-row" data-type="conf">
+          <div class="academic-year">2026</div>
+          <div class="academic-content">
+            <h3 class="paper-title">PermaFusionNet: A Hybrid Deep Learning Framework for Multi-Modal Permafrost Degradation Mapping using SAR and Optical Remote Sensing Data</h3>
+            <p class="paper-authors"><strong>Rohit Kumar Singh</strong>, Suneel Kumar, Rakesh Sahu</p>
+            <p class="paper-venue">5th International Conference on Innovative Ideas in Research &amp; Applications (IIRA 5.0 – 2026). Published in IJERT, Vol. 14, Issue 05 (Paper ID: IJERTCONV14IS050076), ISSN 2278-0181.</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top:3rem">
+        <a class='btn btn-primary' href='/publications'>View All 19 Publications</a>
+      </div>
     </div>
   </section>
+
 
   <!-- Footer -->
   <footer class="minimal-footer">
     <div class="container footer-flex">
-      <p>&copy; <span id="year"></span>  Rohit Kunar Singh. All Rights Reserved.</p>
-
+      <p>&copy; <span id="year"></span> Rohit Kumar Singh. All Rights Reserved.</p>
       <div class="footer-social-mini">
-        <a href="https://www.linkedin.com/in/rohit-kumar-singh-1ba386183/" target="_blank">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://scholar.google.co.in/citations?user=rX7KQU0AAAAJ&hl=en" target="_blank">
-          <i class="fas fa-graduation-cap"></i>
-        </a>
+        <a href="https://www.linkedin.com/in/rohit-kumar-singh-1ba386183/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://scholar.google.co.in/citations?user=rX7KQU0AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://orcid.org/0009-0001-3104-0350" target="_blank" rel="noopener" aria-label="ORCID"><i class="fab fa-orcid"></i></a>
+        <a href="https://www.researchgate.net/profile/Rohit-Singh-220/research" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="fab fa-researchgate"></i></a>
       </div>
     </div>
   </footer>
 
   <script src="script.js"></script>
-
 </body>
 </html>
