@@ -377,3 +377,4 @@ details.more[open] summary::after { content: '−'; }
 @media (max-width: 640px) { .cert-grid { grid-template-columns: 1fr; } }
 .cert-subhead { font-size: 1.5rem; margin: 3.5rem 0 1.25rem; padding-bottom: .75rem; border-bottom: 1px solid var(--rule); }
 .cert-card .achievement-img[src*="edige"] { object-fit: contain; }
+.cert-card .achievement-img { object-fit: contain; background: var(--paper-2); }
